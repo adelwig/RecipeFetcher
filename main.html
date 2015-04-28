@@ -1,0 +1,18 @@
+$def with (form, recipes)
+
+<h1>Enter one ingredient at a time</h1>
+<form name="main" method="post"> 
+$:form.render()   </form>
+
+<table>
+    <tr>
+        <th>Recipes</th>
+        <th></th>
+    </tr>
+$for recipe in recipes
+    <tr>
+        <td>
+	<a href=$recipe.url>$recipe.name</a>
+        </td>
+    </tr>    
+</table> 
