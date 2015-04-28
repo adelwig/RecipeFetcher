@@ -5,6 +5,8 @@ ingredients into a SQLite database (the folder has a working version
 of it called recipes.db) and then serves the web page that takes
 user's input and suggests recipes.
 
+For the web page to work correctly, create \templates sub-directory and then copy main.html into it
+
 Works in Python 2.7. 
 
 Dependencies (need to be downloaded separately):
