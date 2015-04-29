@@ -1,4 +1,4 @@
-# Recipe-Fetcher
+# RecipeFetcher
 This is a small python program that goes to the USDA web site
 (http://recipefinder.nal.usda.gov/), downloads all recipes and
 ingredients into a SQLite database (the folder has a working version
